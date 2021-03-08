@@ -22,7 +22,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: Jallegre/action-rm-labels@v1
+      - uses: eolementhe/action-rm-labels@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           labels: "status: in progress,status: review,status: blocked"
