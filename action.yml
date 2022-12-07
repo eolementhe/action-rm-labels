@@ -8,5 +8,5 @@ inputs:
     description: The labels' name to be removed. Must be separated with line breaks if there're multiple labels.
     required: true
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'index.js'
